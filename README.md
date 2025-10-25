@@ -6,7 +6,7 @@
 
 - 🌍 **Multilingua automatico** - Rileva e risponde in 3 lingue (IT, EN, FR)
 - 💬 **Risposte basate su parole chiave** - Nessun costo API, tutto gratuito
-- 🎨 **Avatar personalizzabile** - Aggiungi la tua foto
+- 🎨 **Avatar personalizzabile** - Avatar basato su una mia foto
 - 📱 **Responsive** - Funziona su desktop e mobile
 - 🔧 **Facile da configurare** - Modifica le risposte in un semplice file JSON
 - ⚡ **Risposta fallback** - Se non capisce, invita a contattarti direttamente
