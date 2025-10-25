@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guestore - Assistente Virtuale B&B</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="avatar-container">
+                <img src="{{ url_for('static', filename='images/avatar.png') }}" alt="Guestore Avatar" class="avatar" id="avatar">
+            </div>
+            <div class="header-text">
+                <h1>Guestore</h1>
+                <p class="status">Il tuo assistente virtuale</p>
+            </div>
+        </div>
+
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot-message">
+                <div class="message-content">
+                    <p>Ciao! Sono Guestore, il tuo assistente virtuale. Come posso aiutarti?</p>
+                    <p class="message-hint">Puoi chiedermi informazioni su check-in, WiFi, parcheggio, servizi e molto altro!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-input-container">
+            <form id="chatForm">
+                <input
+                    type="text"
+                    id="userInput"
+                    placeholder="Scrivi la tua domanda..."
+                    autocomplete="off"
+                    required
+                >
+                <button type="submit" id="sendButton">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+ISTRUZIONI PER L'AVATAR
+========================
+
+Per personalizzare l'avatar di Guestore:
+
+1. Prepara la tua immagine:
+   - Formato: PNG, JPG o JPEG
+   - Dimensioni consigliate: 200x200 pixel (quadrata)
+   - La foto deve essere centrata sul viso
+   - Sfondo chiaro o neutro consigliato
+
+2. Rinomina il file come "avatar.png" (o avatar.jpg)
+
+3. Sostituisci il file in questa cartella (static/images/)
+
+ALTERNATIVE GRATUITE PER CREARE UN AVATAR:
+===========================================
+
+Se non hai una foto o vuoi un avatar stilizzato, puoi usare questi servizi gratuiti:
+
+1. **Avatar Maker** (https://avatarmaker.com/)
+   - Crea avatar cartoon personalizzati
+   - Gratuito e semplice da usare
+
+2. **Canva** (https://www.canva.com/)
+   - Cerca "avatar" nei template
+   - Personalizza con i tuoi colori e stile
+
+3. **Adobe Express** (https://www.adobe.com/express/create/avatar)
+   - Avatar professionali gratuiti
+   - Vari stili disponibili
+
+4. **UI Avatars** (https://ui-avatars.com/)
+   - Avatar con le iniziali del nome
+   - Esempio: https://ui-avatars.com/api/?name=Guestore&size=200&background=667eea&color=fff
+
+DIMENSIONI E FORMATO:
+====================
+- Il file DEVE chiamarsi "avatar.png" o "avatar.jpg"
+- Dimensioni: minimo 150x150px, consigliato 200x200px
+- Formato quadrato per risultati migliori
+- Evita immagini troppo grandi (max 1MB)
+
+Dopo aver sostituito l'immagine, riavvia l'applicazione per vedere le modifiche.

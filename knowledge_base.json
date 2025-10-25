@@ -1,0 +1,87 @@
+{
+  "fallback_responses": {
+    "it": "Mi dispiace, non ho la risposta a questa domanda. Ti prego di contattare direttamente Claudio per maggiori informazioni.",
+    "en": "I'm sorry, I don't have the answer to this question. Please contact Claudio directly for more information.",
+    "fr": "Désolé, je n'ai pas la réponse à cette question. Veuillez contacter directement Claudio pour plus d'informations."
+  },
+  "greeting": {
+    "keywords": ["ciao", "salve", "buongiorno", "buonasera", "hello", "hi", "bonjour", "salut"],
+    "responses": {
+      "it": "👋 Ciao! Sono Guestore, il tuo assistente virtuale. Come posso aiutarti?",
+      "en": "👋 Hello! I'm Guestore, your virtual assistant. How can I help you?",
+      "fr": "👋 Bonjour! Je suis Guestore, votre assistant virtuel. Comment puis-je vous aider?"
+    }
+  },
+  "check_in": {
+    "keywords": ["check-in", "check in", "arrivo", "arrivare", "orario arrivo", "chiavi", "codice", "documenti", "self check-in", "arrival", "arrive", "keys", "code", "documents", "arrivée", "clés"],
+    "responses": {
+      "it": "CHECK-IN:\n\n🕐 Orario: a partire dalle 14:00\nSe hai esigenze diverse, possiamo accordarci!\n\n🔑 SELF CHECK-IN:\nNon è necessaria la mia presenza. All'ingresso troverai delle cassette di sicurezza con le chiavi dell'appartamento.\n\n📱 Codici di accesso:\nTi invierò i codici per aprire le cassette 24 ore prima del tuo arrivo.\n\n📄 DOCUMENTI NECESSARI:\nA seguito delle nuove direttive ministeriali sugli affitti brevi, Claudio avrà bisogno di una foto del documento di riconoscimento per ogni ospite. Ti prego di inviare i documenti direttamente a Claudio.\n\nPer qualsiasi dubbio, contatta Claudio!",
+      "en": "CHECK-IN:\n\n🕐 Time: from 2:00 PM onwards\nIf you have different needs, we can arrange!\n\n🔑 SELF CHECK-IN:\nMy presence is not required. At the entrance you'll find security boxes with the apartment keys.\n\n📱 Access codes:\nI'll send you the codes to open the boxes 24 hours before your arrival.\n\n📄 REQUIRED DOCUMENTS:\nFollowing new ministerial directives on short-term rentals, Claudio will need a photo of an ID document for each guest. Please send the documents directly to Claudio.\n\nFor any questions, contact Claudio!",
+      "fr": "CHECK-IN:\n\n🕐 Horaire: à partir de 14h00\nSi vous avez des besoins différents, nous pouvons nous arranger!\n\n🔑 SELF CHECK-IN:\nMa présence n'est pas nécessaire. À l'entrée vous trouverez des boîtes de sécurité avec les clés de l'appartement.\n\n📱 Codes d'accès:\nJe vous enverrai les codes pour ouvrir les boîtes 24 heures avant votre arrivée.\n\n📄 DOCUMENTS REQUIS:\nSelon les nouvelles directives ministérielles sur les locations courtes, Claudio aura besoin d'une photo d'une pièce d'identité pour chaque invité. Veuillez envoyer les documents directement à Claudio.\n\nPour toute question, contactez Claudio!"
+    }
+  },
+  "check_out": {
+    "keywords": ["check-out", "check out", "partenza", "partire", "orario partenza", "departure", "leave", "départ"],
+    "responses": {
+      "it": "🏠⏰ Il check-out è entro le 11:00. Se hai bisogno di un orario diverso, contatta Claudio.",
+      "en": "🏠⏰ Check-out is by 11:00 AM. If you need a different time, please contact Claudio.",
+      "fr": "🏠⏰ Le départ est avant 11h00. Si vous avez besoin d'un horaire différent, contactez Claudio."
+    }
+  },
+  "wifi": {
+    "keywords": ["wifi", "wi-fi", "internet", "password", "rete", "connessione", "connection", "connexion"],
+    "responses": {
+      "it": "📶 WiFi\n\nNome WiFi: TP-Link_99CE\nPassword: 87353952\n\nTroverai anche la password nell'appartamento, vicino al router.",
+      "en": "📶 WiFi\n\nWiFi Name: TP-Link_99CE\nPassword: 87353952\n\nYou'll also find the password in the apartment, near the router.",
+      "fr": "📶 WiFi\n\nNom WiFi: TP-Link_99CE\nMot de passe: 87353952\n\nVous trouverez également le mot de passe dans l'appartement, près du routeur."
+    }
+  },
+  "parking": {
+    "keywords": ["parcheggio", "parcheggiare", "auto", "macchina", "parking", "park", "car", "stationnement", "voiture"],
+    "responses": {
+      "it": "🚗🅿️ Nelle zone adiacenti l'appartamento, ci sono molti parcheggi gratuiti. Raccomando solo di far attenzione ai passi carrabili.",
+      "en": "🚗🅿️ In the areas adjacent to the apartment, there are many free parking spaces. I only recommend being careful of driveways.",
+      "fr": "🚗🅿️ Dans les zones adjacentes à l'appartement, il y a de nombreux parkings gratuits. Je recommande seulement de faire attention aux entrées de garage."
+    }
+  },
+  "address": {
+    "keywords": ["indirizzo", "dove", "posizione", "ubicazione", "address", "where", "location", "adresse", "où"],
+    "responses": {
+      "it": "📍 L'indirizzo è: Via Cavour 53, Chiesina Uzzanese (PT)",
+      "en": "📍 The address is: Via Cavour 53, Chiesina Uzzanese (PT)",
+      "fr": "📍 L'adresse est: Via Cavour 53, Chiesina Uzzanese (PT)"
+    }
+  },
+  "heating": {
+    "keywords": ["riscaldamento", "caldaia", "termosifone", "caldo", "freddo", "temperatura", "pannello", "heating", "heater", "radiator", "hot", "cold", "temperature", "thermostat", "chauffage", "radiateur", "chaud", "froid"],
+    "responses": {
+      "it": "🔥🌡️ Il pannello di controllo che regola il riscaldamento si trova tra la camera da letto ed il bagno. Ti chiedo gentilmente di spegnere il riscaldamento prima di lasciare l'appartamento, grazie.",
+      "en": "🔥🌡️ The control panel that regulates the heating is located between the bedroom and the bathroom. I kindly ask you to turn off the heating before leaving the apartment, thank you.",
+      "fr": "🔥🌡️ Le panneau de contrôle qui régule le chauffage se trouve entre la chambre et la salle de bain. Je vous demande gentiment d'éteindre le chauffage avant de quitter l'appartement, merci."
+    }
+  },
+  "attractions": {
+    "keywords": ["attrazioni", "visitare", "vedere", "turismo", "ristorante", "pizzeria", "mangiare", "cena", "pranzo", "attractions", "visit", "see", "tourism", "restaurant", "pizzeria", "eat", "dinner", "lunch", "visiter", "manger"],
+    "responses": {
+      "it": "🍕🍝 Claudio ha scritto una guida sui migliori ristoranti/pizzerie della città sull'annuncio di Airbnb. Ti invito a consultarlo.",
+      "en": "🍕🍝 Claudio has written a guide on the best restaurants/pizzerias in the city on the Airbnb listing. I invite you to check it out.",
+      "fr": "🍕🍝 Claudio a écrit un guide sur les meilleurs restaurants/pizzerias de la ville sur l'annonce Airbnb. Je vous invite à le consulter."
+    }
+  },
+  "amenities": {
+    "keywords": ["servizi", "dotazioni", "cosa c'è", "incluso", "amenities", "facilities", "what's included", "équipements", "qu'y a-t-il"],
+    "responses": {
+      "it": "🏠✨ L'appartamento include:\n🍳 Cucina completa\n🚿 Bagno privato\n📶 WiFi gratuito\n📺 TV\n🛏️ Asciugamani e lenzuola",
+      "en": "🏠✨ The apartment includes:\n🍳 Full kitchen\n🚿 Private bathroom\n📶 Free WiFi\n📺 TV\n🛏️ Towels and bed linen",
+      "fr": "🏠✨ L'appartement comprend:\n🍳 Cuisine complète\n🚿 Salle de bain privée\n📶 WiFi gratuit\n📺 TV\n🛏️ Serviettes et draps"
+    }
+  },
+  "contact": {
+    "keywords": ["contatto", "telefono", "email", "chiamare", "scrivere", "contact", "phone", "call", "email", "contacter", "téléphone", "appeler"],
+    "responses": {
+      "it": "📱 Puoi contattare Claudio al numero +39 3349209193\n📧 Email: claudiomonti9720@gmail.com\nÈ sempre disponibile.",
+      "en": "📱 You can contact Claudio at +39 3349209193\n📧 Email: claudiomonti9720@gmail.com\nHe is always available.",
+      "fr": "📱 Vous pouvez contacter Claudio au +39 3349209193\n📧 Email: claudiomonti9720@gmail.com\nIl est toujours disponible."
+    }
+  }
+}

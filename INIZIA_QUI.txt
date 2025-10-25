@@ -1,0 +1,123 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║   🏠 BENVENUTO IN GUESTORE - CHATBOT PER B&B 🏠              ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+Ciao! Hai davanti il tuo chatbot per il B&B, pronto all'uso!
+
+📚 QUALE FILE APRIRE?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. 🚀 GUIDA_RAPIDA.md
+   👉 INIZIA DA QUI! Guida in 3 passi per personalizzare il chatbot
+
+2. 📖 README.md
+   Documentazione completa del progetto
+
+3. 📤 DEPLOY_GITHUB.md
+   Come caricare il progetto su GitHub
+
+4. 🧪 TEST_CHATBOT.md
+   Come testare che tutto funzioni
+
+5. ⚙️ knowledge_base.json
+   ⭐ FILE PIÙ IMPORTANTE ⭐
+   Qui personalizzi TUTTE le risposte del chatbot
+
+
+🎯 COSA FARE ADESSO?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PASSO 1 → Apri GUIDA_RAPIDA.md
+PASSO 2 → Personalizza knowledge_base.json
+PASSO 3 → Sostituisci avatar in static/images/avatar.png
+PASSO 4 → Testa in locale: python app.py
+PASSO 5 → Carica su GitHub (segui DEPLOY_GITHUB.md)
+PASSO 6 → Deploy su Render
+PASSO 7 → Configura UptimeRobot
+PASSO 8 → Invia il link agli ospiti!
+
+
+📁 STRUTTURA DEL PROGETTO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+guestore/
+├── 📄 INIZIA_QUI.txt          ← Sei qui!
+├── 📄 GUIDA_RAPIDA.md         ← Leggi questo per primo
+├── 📄 README.md               ← Documentazione completa
+├── 📄 DEPLOY_GITHUB.md        ← Deploy su GitHub
+├── 📄 TEST_CHATBOT.md         ← Test del chatbot
+│
+├── 📄 app.py                  ← Backend Python (non toccare)
+├── 📄 requirements.txt        ← Dipendenze (non toccare)
+├── ⭐ knowledge_base.json     ← PERSONALIZZA QUESTO FILE
+│
+├── templates/
+│   └── index.html             ← Interfaccia chatbot
+│
+└── static/
+    ├── css/style.css          ← Stili (colori, font)
+    ├── js/script.js           ← Logica frontend
+    └── images/
+        ├── avatar.png         ← SOSTITUISCI CON TUA FOTO
+        └── AVATAR_INSTRUCTIONS.txt
+
+
+⚠️  IMPORTANTE - PRIMA DI INIZIARE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Assicurati di avere Python installato (versione 3.8+)
+   Verifica: python --version
+
+2. Cerca nel file knowledge_base.json questi testi e SOSTITUISCILI:
+   ❌ [INSERISCI QUI IL TUO INDIRIZZO]
+   ❌ [INSERISCI IL TUO NUMERO]
+   ❌ [INSERISCI LA TUA EMAIL]
+   ❌ [X] (numero massimo ospiti)
+   ❌ [Attrazione 1], [Nome ristorante], ecc.
+
+3. Sostituisci l'avatar in static/images/avatar.png
+
+
+💡 ESEMPIO DI PERSONALIZZAZIONE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PRIMA:
+"it": "L'indirizzo è: [INSERISCI QUI IL TUO INDIRIZZO]"
+
+DOPO:
+"it": "L'indirizzo è: Via Roma 123, 20100 Milano (MI)"
+
+
+🆘 SERVE AIUTO?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Leggi i file nella seguente sequenza:
+
+1. GUIDA_RAPIDA.md
+2. TEST_CHATBOT.md (dopo aver personalizzato)
+3. DEPLOY_GITHUB.md (quando sei pronto per metterlo online)
+4. README.md (per approfondire)
+
+
+✨ CARATTERISTICHE DEL TUO CHATBOT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Risponde in 6 lingue (IT, EN, ES, FR, DE, PT)
+✅ Rileva automaticamente la lingua dell'ospite
+✅ Risponde a domande su check-in, WiFi, parcheggio, ecc.
+✅ Se non sa rispondere, dice di contattarti
+✅ Avatar personalizzabile
+✅ Interfaccia moderna e responsive
+✅ Hosting GRATUITO su Render
+✅ Zero costi di utilizzo (nessuna API a pagamento)
+
+
+🎉 PRONTO? VIA!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Apri GUIDA_RAPIDA.md e segui i 3 passi!
+
+Buon lavoro con il tuo B&B! 🏠✨
+
