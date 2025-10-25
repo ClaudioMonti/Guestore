@@ -4,7 +4,7 @@
 
 ## ✨ Caratteristiche
 
-- 🌍 **Multilingua automatico** - Rileva e risponde in 6 lingue (IT, EN, ES, FR, DE, PT)
+- 🌍 **Multilingua automatico** - Rileva e risponde in 3 lingue (IT, EN, FR)
 - 💬 **Risposte basate su parole chiave** - Nessun costo API, tutto gratuito
 - 🎨 **Avatar personalizzabile** - Aggiungi la tua foto
 - 📱 **Responsive** - Funziona su desktop e mobile
